@@ -1,14 +1,14 @@
 package me.flamboyant.helllottery.twistbuilding;
 
-import me.flamboyant.common.utils.Common;
-import me.flamboyant.twistmechanisms.TriggerType;
-import me.flamboyant.twistmechanisms.TwistCausalityHandler;
-import me.flamboyant.twistmechanisms.causes.*;
-import me.flamboyant.twistmechanisms.consequences.*;
-import me.flamboyant.twistmechanisms.consequences.converter.LivingEntityToRainConsequenceConverter;
-import me.flamboyant.twistmechanisms.consequences.converter.TriggerToAllPlayersConsequenceConverter;
-import me.flamboyant.twistmechanisms.consequences.specific.ChestPopulateByLootAltitude;
-import me.flamboyant.twistmechanisms.consequences.specific.RegenChestLootConsequence;
+import me.flamboyant.utils.Common;
+import me.flamboyant.causality.TriggerType;
+import me.flamboyant.causality.TwistCausalityHandler;
+import me.flamboyant.causality.causes.*;
+import me.flamboyant.causality.consequences.*;
+import me.flamboyant.causality.consequences.converter.LivingEntityToRainConsequenceConverter;
+import me.flamboyant.causality.consequences.converter.TriggerToAllPlayersConsequenceConverter;
+import me.flamboyant.causality.consequences.specific.ChestPopulateByLootAltitude;
+import me.flamboyant.causality.consequences.specific.RegenChestLootConsequence;
 import org.bukkit.Bukkit;
 
 import java.util.ArrayList;

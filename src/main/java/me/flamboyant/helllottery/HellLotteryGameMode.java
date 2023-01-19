@@ -1,8 +1,9 @@
 package me.flamboyant.helllottery;
 
-import me.flamboyant.common.parameters.AParameter;
-import me.flamboyant.common.utils.Common;
-import me.flamboyant.common.utils.ILaunchablePlugin;
+import me.flamboyant.causality.TwistCausalityHandler;
+import me.flamboyant.configurable.parameters.AParameter;
+import me.flamboyant.utils.Common;
+import me.flamboyant.utils.ILaunchablePlugin;
 import me.flamboyant.helllottery.difficulty.IDifficultyManager;
 import me.flamboyant.helllottery.difficulty.WithBreaksDifficultyManager;
 import me.flamboyant.helllottery.rounds.IRoundUnfolding;
@@ -10,7 +11,6 @@ import me.flamboyant.helllottery.rounds.IRoundUnfoldingListener;
 import me.flamboyant.helllottery.rounds.TimerRoundUnfolding;
 import me.flamboyant.helllottery.twistbuilding.TwistBuilder;
 import me.flamboyant.helllottery.twistbuilding.TwistType;
-import me.flamboyant.twistmechanisms.TwistCausalityHandler;
 import org.bukkit.Bukkit;
 import org.bukkit.boss.BarColor;
 import org.bukkit.boss.BarFlag;

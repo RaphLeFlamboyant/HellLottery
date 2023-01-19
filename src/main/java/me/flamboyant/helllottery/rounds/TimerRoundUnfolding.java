@@ -1,6 +1,6 @@
 package me.flamboyant.helllottery.rounds;
 
-import me.flamboyant.common.utils.Common;
+import me.flamboyant.utils.Common;
 import org.bukkit.Bukkit;
 import org.bukkit.boss.BarColor;
 import org.bukkit.boss.BarFlag;

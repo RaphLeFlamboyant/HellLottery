@@ -2,3 +2,7 @@ name: Helllottery
 version: '${project.version}'
 main: me.flamboyant.helllottery.Main
 api-version: 1.19
+commands:
+  f_hell_lottery:
+    description: Good luck
+    permission: f_hell_lottery.use

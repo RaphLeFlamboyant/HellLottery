@@ -1,0 +1,6 @@
+[submodule "submodules/FlamboyantCausality"]
+	path = submodules/FlamboyantCausality
+	url = https://github.com/RaphLeFlamboyant/FlamboyantCausality.git
+[submodule "submodules/FlamboyantPluginTools"]
+	path = submodules/FlamboyantPluginTools
+	url = https://github.com/RaphLeFlamboyant/FlamboyantPluginTools.git

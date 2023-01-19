@@ -1,17 +1,15 @@
 package me.flamboyant.helllottery;
 
-import org.bukkit.plugin.java.JavaPlugin;
+import me.flamboyant.FlamboyantPlugin;
 
-public final class Main extends JavaPlugin {
+public final class Main  extends FlamboyantPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        super.onEnable();
 
-    }
+        CommandsDispatcher commandDispatcher = new CommandsDispatcher();
 
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
+        getCommand("f_hell_lottery").setExecutor(commandDispatcher);
     }
 }
