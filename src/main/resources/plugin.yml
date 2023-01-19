@@ -1,0 +1,4 @@
+name: Helllottery
+version: '${project.version}'
+main: me.flamboyant.helllottery.Main
+api-version: 1.19
